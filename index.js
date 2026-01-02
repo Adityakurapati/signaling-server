@@ -240,10 +240,6 @@ io.on('connection', (socket) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`Signaling server running on port ${PORT}`);
-});
-
-server.listen(PORT, () => {
   console.log(`✅ Signaling server running on port ${PORT}`);
   console.log(`📡 WebSocket URL: wss://your-app-name.onrender.com`);
   console.log(`🌐 HTTP URL: https://your-app-name.onrender.com`);
