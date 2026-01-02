@@ -1,18 +1,17 @@
 {
-  "name": "signaling-server",
+  "name": "voice-translate-server",
   "version": "1.0.0",
-  "description": "WebRTC signaling server for VoiceTranslate app",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
     "start": "node index.js"
   },
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
   "engines": {
     "node": ">=18"
-  },
-  "dependencies": {
-    "express": "^4.19.2",
-    "socket.io": "^4.7.5",
-    "cors": "^2.8.5"
   }
 }
